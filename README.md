@@ -62,6 +62,6 @@ O dashboard contém visualizações interativas que permitem:
 - Bibliotecas: `pandas`, `numpy`, `sqlalchemy`, `jupyter`
 - Power BI Desktop
 
-## 📚 Licença
+## 📚 Criado por:
 
-Este projeto é distribuído sob a licença MIT.
+Lucca de Carvalho Moraes
