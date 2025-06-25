@@ -5,6 +5,7 @@ Este projeto tem como objetivo consolidar, tratar e analisar dados de vendas, ap
 ## 🗂️ Estrutura do Projeto
 
 - `estrutura_tabelas.sql`: Script SQL para criação das tabelas **clientes**, **produtos** e **vendas**.
+-  `inserts_tabela.sql`: INSERTS para popular as tabelas **clientes**, **produtos** e **vendas**.
 - `Tratamento dos dados.ipynb`: Notebook Jupyter com o processo de limpeza, integração e transformação dos dados.
 - `Dashboard_vendas.pbix`: Arquivo Power BI com visualizações e métricas relevantes para análise de vendas.
 
@@ -25,6 +26,8 @@ O banco de dados foi modelado com três tabelas principais:
   Campos: `id_venda`, `id_cliente`, `id_produto`, `data_venda`, `quantidade`.
 
 > As tabelas estão relacionadas por meio de chaves estrangeiras em um modelo estrela simples.
+INSERT nas tabelas com dados fictícios para popular as tabelas.
+> Exemplo: INSERT INTO produtos VALUES (1, 'Notebook', 'Eletrônicos', 3500);
 
 ## 🔧 Tratamento dos Dados
 
