@@ -6,7 +6,7 @@ Este projeto tem como objetivo consolidar, tratar e analisar dados de vendas, ap
 
 - `estrutura_tabelas.sql`: Script SQL para criação das tabelas **clientes**, **produtos** e **vendas**.
 -  `inserts_tabela.sql`: INSERTS para popular as tabelas **clientes**, **produtos** e **vendas**.
-- `Tratamento dos dados.ipynb`: Notebook Jupyter com o processo de limpeza, integração e transformação dos dados.
+- `Tratamento dos dados.ipynb`: Jupyter Notebook com o processo de limpeza, integração e transformação dos dados.
 - `Dashboard_vendas.pbix`: Arquivo Power BI com visualizações e métricas relevantes para análise de vendas.
 
 ## 🧱 Modelagem do Banco de Dados
@@ -31,7 +31,7 @@ INSERT nas tabelas com dados fictícios para popular as tabelas.
 
 ## 🔧 Tratamento dos Dados
 
-O notebook realiza as seguintes etapas:
+O notebook realiza as seguintes etapas no python:
 
 1. **Leitura dos dados brutos**
 2. **Normalização de nomes e categorias**
